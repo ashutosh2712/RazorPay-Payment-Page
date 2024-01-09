@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template: 64px 856px / 224px 1290px;
+}
+
+.sidebarContainer {
+  background-color: dodgerblue;
+  grid-row: 1 / 3;
+}
+.bodyContainer {
+  background-color: tomato;
+}
+.headerContainer {
+  background-color: green;
+  grid-column: 2;
+}
+
+.sidebarContainer {
+  background: #1e2640;
+}
+
+.navBarTop {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  isolation: isolate;
+  width: 192px;
+  height: 42px;
+  margin-left: 1rem;
+}
+
+.companyLogo {
+  width: 39px;
+  height: 39px;
+  left: 0.5px;
+  top: 0.5px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.companyTitle {
+  width: 108px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.visitStore {
+  width: 108px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.navBarMain {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBarBody {
+  display: flex;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.navBarBodyText {
+  margin-left: 1rem;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.baseNavButton {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 192px;
+  height: 54px;
+  background: #353c53;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+
+.outlineWallet {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.025rem;
+}
+
+.walletImg {
+  width: 24px;
+  height: 24px;
+}
+
+.baseEndText {
+  display: flex;
+  flex-direction: column;
+  width: 101px;
+  height: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffffff;
+}
+
+.availabelText {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.availableNumber {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 0.25rem;
+}
