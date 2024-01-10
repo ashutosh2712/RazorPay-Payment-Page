@@ -27,7 +27,7 @@ const Header = () => {
             <img src={message} alt="" />
           </div>
           <div className="polygon">
-            <img src={polygon} alt="" />
+            <img src={polygon} alt="" className="polygonImage" />
           </div>
         </div>
       </div>
