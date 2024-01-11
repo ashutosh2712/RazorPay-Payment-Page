@@ -52,8 +52,8 @@ const SideBar = () => {
           <img src={Analytics} alt="" />
           <span className="navBarBodyText">Analytics</span>
         </div>
-        <div className="navBarBody">
-          <img src={Payments} alt="" />
+        <div className="navBarBody navPayment">
+          <img src={Payments} alt="" className="navImage" />
           <span className="navBarBodyText">Payments</span>
         </div>
         <div className="navBarBody">
